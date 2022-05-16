@@ -1,0 +1,111 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+/*   justify-content: center; */
+  align-items: center;
+  width: 100%;
+  margin-top: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 15px;
+  
+}
+
+img {
+  margin: 0 7px 0px 0px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 1 solid black;
+  border-radius: 5px;
+  
+}
+
+.waveButton2 {
+  cursor: pointer;
+  padding: 8px;
+  border: 1;
+  border-radius: 5px;
+  font-size: 15px;
+
+}
+
+.loader {
+  margin: 6px auto 1px;
+  border: 6px solid #7cd0a9; /* Light grey */
+  border-top: 6px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.wavesDisplay {
+  margin: 12px auto 0px;
+  font-size: 32px;
+  
+}
+
+.wavesDisplay2 {
+/*   margin: 12px auto 0px; */
+  font-size: 38px;
+  color: white;
+}
+
+.waveCounter {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #0008fa;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #b330d4;
+  margin-top: 10px;
+}
+
+.message-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 10px 0px 0px 0px;
+  
+}
+
+.input {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
